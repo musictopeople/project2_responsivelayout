@@ -105,6 +105,7 @@ footer h4 {
 .contact-info {
     font-family: 'Inconsolata', monospace;
     text-align: center;
+    border-top: solid grey .1em;
 }
 
 .contact-info h3 {
@@ -122,20 +123,25 @@ footer h4 {
     margin-bottom: 3em;
 }
 
-.skills-header {
-    text-align: center;
+.skills {
+    font-family: 'Inconsolata', monospace;
+    background-color: white;
+    text-align: left;
 }
 
-.skills {
-    text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+.skills h3 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .skills-pic {
     width: 80%;
-    margin: 5% 10% 5% 10%;
+    margin: 0% 5% 0% 10%;
+}
+
+.skills p {
+    padding: 2.5% 10% 5% 10%;
 }
 
 /**Media Queries***********/
@@ -322,6 +328,11 @@ footer h4 {
     margin-right: 2em;
     margin-top: 1em;
     max-width: 49%;
+    }
+
+    .skills {
+        width: 95%;
+        margin: auto;
     }
 
     .contact-info p {
